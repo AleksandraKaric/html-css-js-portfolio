@@ -44,24 +44,40 @@ dok href="style.css" ukazuje na putanju do CSS fajla. -->
     
     <section id = "profile">
         <div class = "section__pic-container">
-            <img src = "./assets/viber_slika_2024-11-01_10-07-18-951.jpg" alt = "Aleksandra profile picture" />
+            <img src = "./assets/pocetna.jpg" alt = "Aleksandra profile picture" />
 
         </div>
 
-        <div class = "section__text">
-            <p class = "section__text__p1">Hi I'm</p>
-            <h1 class = "title"> Aleksandra Karić </h1>
-            <p class = "section__text__p2"> Automation QA Engineer</p>
-        </div>
+        <div class = "section-container">
 
-        <div class = btn-container>
-            <button class = "btn btn-color-2" onclick= "window.open('./assets/ALEKSANDRA KARIC QA Engineer.pdf')"> Download Resume
-            </button>
-           
-            <button class = "btn btn-color-1" onclick= "location.href='./#contact'"> Contact Info
-            </button>
+            <div class = "section__text">
+                <p class = "section__text__p1">Hello, I am</p>
+                <h1 class = "title"> Aleksandra Karić </h1>
+                <p class = "section__text__p2"> Automation QA Engineer</p>
+            </div>
 
-        </div>
+            <div class = "btn-container">
+                <button class = "btn btn-color-2" onclick= "window.open('./assets/ALEKSANDRA KARIC QA Engineer.pdf')"> My Resume
+                </button>
+            
+                <button class = "btn btn-color-1" onclick= "location.href='./#contact'"> Contact Info
+                </button>
+
+            </div>
+
+            <div class = "socials-container"> 
+            
+                <img src = './assets/linkedin.png' alt="My Linkedin Profile" 
+                class = "icon" 
+                onclick="location.href='https://www.linkedin.com/in/aleksandra-karic/'">
+                
+                <img src = './assets/github.png' alt="My GitHub Profile" 
+                class = "icon" 
+                onclick="location.href='https://github.com/AleksandraKaric'">
+
+            </div>
+
+      </div>
     </section>
     <script src = "script.js"></script>
 </body>
