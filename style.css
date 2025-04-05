@@ -41,13 +41,18 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    background: #f8f8f8;
+    padding: 40px;
+    border-radius: 20px; /* Zaobljene ivice okvira */
 }
 
 .container img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 250px;  /* Širina slike */
+    height: 250px; /* Visina slike (isti broj kao width = kvadrat) */
+    border-radius: 20px; /* Zaobljene ivice */
+    object-fit: cover; /* Sprečava izobličenje */
     margin-right: 20px;
+    border: 5px solid #ddd; /* Opciona ivica */
 }
 
 .text h2 span {
@@ -60,5 +65,49 @@ section {
     padding: 50px;
     background: #f9f9f9;
     margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column; /* Ovo stavlja dugmad ispod teksta */
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.github-btn {
+    background-color: #333;
+}
+
+.github-btn:hover {
+    background-color: #000;
+}
+
+.github-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
 }
 
