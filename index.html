@@ -48,36 +48,31 @@ dok href="style.css" ukazuje na putanju do CSS fajla. -->
 
         </div>
 
-        <div class = "section-container">
+         <div class = "section__text">
+            <p class = "section__text__p1">Hello, I am</p>
+            <h1 class = "title"> Aleksandra Karić </h1>
+            <p class = "section__text__p2"> Automation QA Engineer</p>
+        </div>
 
-            <div class = "section__text">
-                <p class = "section__text__p1">Hello, I am</p>
-                <h1 class = "title"> Aleksandra Karić </h1>
-                <p class = "section__text__p2"> Automation QA Engineer</p>
-            </div>
-
-            <div class = "btn-container">
-                <button class = "btn btn-color-2" onclick= "window.open('./assets/ALEKSANDRA KARIC QA Engineer.pdf')"> My Resume
-                </button>
+        <div class = "btn-container">
+            <button class = "btn btn-color-2" onclick= "window.open('./assets/ALEKSANDRA KARIC QA Engineer.pdf')"> My Resume
+            </button>
             
-                <button class = "btn btn-color-1" onclick= "location.href='./#contact'"> Contact Info
-                </button>
+            <button class = "btn btn-color-1" onclick= "location.href='./#contact'"> Contact Info
+            </button>
+        </div>
 
-            </div>
+        <div id = "socials-container"> 
+            <img src = './assets/linkedin.png' alt="My Linkedin Profile" 
+            class = "icon" 
+            onclick="location.href='https://www.linkedin.com/in/aleksandra-karic/'"
+            />
 
-            <div class = "socials-container"> 
-            
-                <img src = './assets/linkedin.png' alt="My Linkedin Profile" 
-                class = "icon" 
-                onclick="location.href='https://www.linkedin.com/in/aleksandra-karic/'">
-                
-                <img src = './assets/github.png' alt="My GitHub Profile" 
-                class = "icon" 
-                onclick="location.href='https://github.com/AleksandraKaric'">
-
-            </div>
-
-      </div>
+            <img src = './assets/github.png' alt="My GitHub Profile" 
+            class = "icon" 
+            onclick="location.href='https://github.com/AleksandraKaric'"
+            />
+        </div>
     </section>
 
     <section id= "about">
@@ -116,17 +111,15 @@ dok href="style.css" ukazuje na putanju do CSS fajla. -->
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur 
-                        adipisicing elit. Quaerat harum corrupti
-                         maxime impedit consequatur et ducimus 
-                         explicabo voluptatibus blanditiis quod 
-                         quae magnam, aut beatae nihil qui ad
-                          reprehenderit, odit quo.
+                        I’m an Automation QA Engineer who loves making sure software 
+                        works the way it should—every time. With experience in both manual 
+                        and automated testing for web and mobile applications, 
+                        I focus on catching issues early and improving the user experience. 
                     </p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" clas="icon arrow" 
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
         onclick="location.href='./#experience'"
         />
 

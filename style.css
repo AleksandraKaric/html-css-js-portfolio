@@ -29,7 +29,8 @@ a, .btn {
 
 /* DESKTOP NAV*/
 
-nav, .nav-links {
+nav, 
+.nav-links {
     display: flex;
 } 
 
@@ -169,11 +170,11 @@ section {
 
 .section-container {
     display: flex;
-    flex-direction: column;
+   /* flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: center;*/
 }
-/*
+
 .section__content {
     display: flex;
     flex-direction: column;
@@ -186,35 +187,17 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 5rem;
     height: 80vh;
 }
 
 .section__pic-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    max-width: 400px;
-    /*height: 400px;
-    width: 400px;
-    margin: auto 0;*/
-
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
 }
 
-.section__pic-container img {
-    width: 100%; /* Slika će zauzeti celu širinu kontejnera */
-    height: auto;
-    border-radius: 50%; /* Dodajemo border-radius za kružni izgled slike */
-}
-
-.section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 
 .section__text {
     align-self: center;
@@ -239,7 +222,7 @@ section {
     text-align: center;
 }
 
-.socials-container {
+#socials-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -283,7 +266,7 @@ section {
 }
 
 .btn-color-1:hover {
-    background: rgd(0, 0, 0);
+    background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
@@ -320,3 +303,33 @@ section {
     display: flex;
 }
 
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: auto;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
